@@ -1,0 +1,8 @@
+name: Hello world
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: node index.js
