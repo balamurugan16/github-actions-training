@@ -4,5 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Current Directory
+        run: ls 
       - name: Say hello
         run: node index.js
